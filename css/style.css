@@ -1,0 +1,11 @@
+header nav img {
+    width: 250px;
+}
+
+
+/*EQUIPO*/
+
+.imagen-team {
+    width: 250px;
+    border-radius: 50%;
+}
