@@ -1,0 +1,168 @@
+
+.headerPadre {
+    nav {
+        img {
+            width: 14rem;
+            @media (max-width: 576px){
+                width: 10rem;
+            }
+            
+        }
+    }
+    .container-nav{
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+
+.navbar-light {
+    z-index: 1000;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    
+}
+
+.navbar-expand-md .navbar-collapse{
+   
+    justify-content: flex-end;
+    @media (max-width: 576px){
+        font-size: 1rem;
+    }
+    
+
+ 
+    li {
+        padding: 0 1rem;
+  
+    }
+    }
+
+
+.headerBri {
+    margin: 100px  80px;
+    line-height: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        overflow: visible;
+        font-family: nexa1;
+        @media (max-width: 768px){
+            font-size: 1rem;}
+            padding: 2rem 0rem ;
+
+    }
+    
+    @media (max-width: 768px){
+        margin: 5rem 0 0 0 ;
+  
+        text-align: center;
+      
+
+    }
+    
+
+    
+    .separte {
+
+        @font-face {
+            font-family: nexa1;
+            src: url(/tipografia/NexaBold.woff);
+            }
+        font-style: normal;
+        color: #F9B418;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        overflow:visible;
+    }
+    .briPro {
+        @font-face {
+            font-family: nexa1;
+            src: url(/tipografia/NexaBold.woff);
+            }
+        font-style: normal;
+        color: #81439A;
+        font-weight: 300;
+        font-size: 2.6rem;
+        font-weight: bold;
+        line-height: 2.5rem;
+        overflow:visible;
+    }
+    .conoceBri{
+        color: #4F4F4F;
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-family: roboto1;
+        
+
+        @media (max-width: 768px){
+            width: auto;
+            margin: 0 2rem;
+            text-align: center;
+        }
+
+    }
+
+    .imgBri2{
+        padding: 0;
+        margin: 2rem;
+    }
+
+}
+
+
+
+#inicioBri {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+
+    @media (max-width: 768px){
+        margin-top: 0rem;
+        
+    }
+
+    img{
+        width: 90%;
+        @media (max-width: 768px){
+            display: block;
+            margin: auto;
+
+        }
+    }
+
+    button {
+        background-color: #81439A; // Color Brillante violeta: #81439A
+        color: #fff;
+        margin: 2rem 0;
+        padding: 0.5rem 1rem;
+        border: #81439A;
+        font-family: roboto1;
+
+        &:hover {
+            filter: opacity(.8);
+        }
+        
+    }
+}
+.navEnlace{
+    font-family: roboto1;
+            
+        &:hover{   
+           
+            border-bottom: 2px solid #81439A;
+            font-weight: bolder;
+            color: #81439A;
+
+        @media (max-width: 768px){
+            color:#81439A;
+            border-bottom: none;
+            
+        }
+    }
+
+    
+}
+
+    

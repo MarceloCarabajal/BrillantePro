@@ -1,0 +1,80 @@
+// -----------Testimonios----------------
+
+#testimonios{
+    background-color: #81439a;
+    color: white;
+
+    @media (min-width: 768px){
+        padding-top: 5.5rem; 
+        padding-bottom: 5.5rem;  
+    }
+    @media (max-width: 768px){
+        padding-top: 5.5rem;
+    }
+    h2{
+        line-height: 2.5rem;
+        overflow:visible;
+        font-family: nexa1;
+    }
+    h2,p{  //aplica a los titulos y a los textos. También incluye a los p dentro de las card
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .testBri {
+        min-height: 10rem;
+        max-width: 30rem;
+    }
+
+    
+}
+
+.card{
+    border: 2px solid #ffffff;
+    background-color: #81439a;
+}
+.subtittle{
+   padding: 2rem;
+   font-size: 1.2rem;
+   @media (max-width: 768px){
+    
+    padding: 0.5rem;
+}
+}
+
+.slidesBri {
+    @media (max-width: 768px){
+        display: none;
+    }
+
+}
+
+.slidesBri2 {
+    @media (min-width: 768px){
+        display: none;
+    }
+
+}
+
+
+.experience {
+    text-transform: uppercase;
+    text-align: center;
+    color: #81439A;
+    padding: 4rem;
+    font-family: nexa1;
+
+}
+
+
+.subtittle2{
+    color: #ffffff;
+    margin:2rem;
+    font-family: roboto1;
+
+}
+
+

@@ -1,0 +1,79 @@
+@import 'sections/contacto';
+@import 'sections/equipo';
+@import 'sections/footer';
+@import 'sections/header';
+@import 'sections/programa';
+@import 'sections/somos';
+@import 'sections/testimonios';
+@import 'sections/whatsapp';
+@import 'sections/carousel';
+
+
+
+// Colores
+
+// violetaBg
+// #81439A
+// rgba(129, 67, 154, 1)
+
+// Naranja cajas
+// #EE7724
+// rgba(238, 119, 36, 1)
+
+// Rojo Cajas
+
+// #E4252B
+// rgba(228, 37, 43, 1)
+
+// Amarillo Cajas
+
+// #F9B418
+// // rgba(249, 180, 24, 1)
+
+// Tamaños: 
+// @media (max-width: 576px) xs
+// @media (min-width: 576px) and (max-width: (768px)) s
+// @media(min-width 768px) grande
+//@media(min-width 992px) extra grande
+    
+
+
+ 
+
+
+// Importar tipografías
+
+@font-face {
+    font-family: nexa1;
+    src: url('/tipografia/NexaBold.woff');
+}
+
+//Ejemplo de uso de la tipografía
+// h1 {
+//     font-family: nexa1;
+//
+
+@font-face {
+    font-family: roboto1;
+    src: url('/tipografia/roboto/Roboto-Regular.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+
+    @media (max-width: 576px){
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+  
+}

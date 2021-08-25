@@ -1,0 +1,51 @@
+// -------------Contacto---------------
+#footer{
+    background-color: #81439a;
+    color: white;
+    padding: 8rem 0;
+    h2,p{
+        text-align: center;
+        @media (max-width: 768px){
+            padding-top: 5.5rem;
+        }
+    }
+    h2{
+        line-height: 2rem;
+        overflow: visible;
+        font-family: nexa1;
+    }
+    p{
+        font-family: roboto1;
+    }
+    .socialIcons{
+        padding-top: 3rem;
+        text-align: center;
+
+        .redesBri {
+            img{
+                width: 50%;
+                @media (max-width: 768px){
+                    width: 30%;
+                }
+            }
+        }
+        .redesBri2 {
+            img {
+                width: 50%;
+                @media (max-width: 768px){
+                    width: 30%;;
+                }
+            }           
+        }
+    }
+
+}
+
+
+
+
+
+
+   
+
+	

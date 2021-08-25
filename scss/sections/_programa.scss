@@ -1,0 +1,304 @@
+// ----------------Programa-------------
+#programa{
+    @media (min-width: 768px){
+        padding-top: 5rem;   
+    }
+}
+
+.programaBri{
+
+    padding: 4.5rem 3rem 3rem 3rem;
+    text-align: center;
+    
+    h2 {
+        color: #81439A;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 2.5rem;
+        overflow:visible;  
+        font-family: nexa1;  
+    }
+    p {
+        color: black;
+        font-family: roboto1;
+        text-align: center;
+        @media(min-width: 992px){
+            margin: 4rem 14rem 2rem 14rem;
+        }
+        @media (min-width: 768px) and (max-width: (991px)){
+            margin: 0rem 1rem;
+            
+        }
+
+        @media (max-width: 768px){
+            margin-top: 3rem;
+        }
+     
+    }
+    }
+
+
+
+.caracteristicaBri {
+
+
+
+    p {
+        color: black;
+        text-align: center;
+        font-family: roboto1;
+    }
+
+    img {
+        display: flex;        
+        // max-height: 30%;
+
+        @media (min-width: 768px) {
+            width: 40%;
+            margin: auto;
+        }
+
+       
+        @media (max-width: 768px) {
+            width: 15%;
+            align-self: center;
+            
+        }
+
+
+    }
+    .cursosBri {
+        .progTitle {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        
+
+    
+    }
+}
+
+.mundosTittle {
+
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #81439A;
+    padding: 4rem;
+    font-family: nexa1;
+}
+
+.mundos {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    h4 {
+        color: #81439A;
+    }
+
+
+}
+
+.creativo {
+    h5{
+        line-height: 2rem;
+        overflow:visible;
+    }
+    height: 45vh;
+    background-color: #EE7724;
+ 
+}
+
+.bravo {
+    h5{
+        line-height: 2rem;
+        overflow:visible;
+    }
+    height: 45vh;
+    background-color: #E4252B;
+ 
+}
+
+.onda {
+    h5{
+        line-height: 2rem;
+        overflow:visible;
+    }
+    height: 45vh;
+    background-color: #F9B418;
+    
+}
+
+.descr{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0.5rem;
+    font-family: roboto1;
+    img {
+        width: 30%;
+        margin: 0 auto;
+    }
+    @media (max-width: 576px){
+        margin: 2rem;
+    }
+
+}
+
+.container-m{
+    width: 100% !important;
+    
+
+.calendarBri {
+    color: #81439A;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    .textoCursos {
+        font-size: 1.2rem;
+        color:black;
+        font-family: roboto1;
+    }
+    .btn-cursos{
+    background-color:  #ECF719;
+    font-size: 1rem;
+
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-family: roboto1;
+    border: none;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: all 1s;
+      
+      }
+    @media (max-width: 768px){
+        margin: 0 2rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }  
+    
+    }
+    
+}
+    .grid-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem 0;
+        
+        
+        .super-grid { 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+            
+        }
+    
+
+    }
+
+
+}
+.grid{
+    background-color: #FAFAFA;
+    color: #81439A;
+    margin: 0.3rem;
+    padding-top: 1rem;
+    max-width: 18rem;
+    min-height: 12rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align:left;
+    box-shadow: 4px 4px #f1f1f1 ;
+    font-family: roboto1;
+
+    @media (min-width: 1400px){
+        min-width: 20%;
+    }
+
+    
+
+    li {
+        color: #7C7C7C;
+    }
+}
+
+.pagoTittle{
+    line-height: 2.5rem;
+        overflow:visible;
+        font-family: nexa1;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #81439A;
+     
+}
+.btn-pagos{
+    background-color: #ECF719;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-family: roboto1;
+    border: none;
+
+    &:hover {
+        transform: scale(1.02);
+        transition: all 1s;
+      }
+    @media (max-width: 768px){
+        padding: 0.5rem;  
+    }  
+    
+    }
+
+    .pagos {
+        color: #ffffff;
+
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 6rem;
+        .dinero {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+    }
+
+    .descr1{
+        display: flex;
+        background-color:#81439A;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin: 0.5rem;
+        font-family: roboto1;
+        @media (max-width: 576px){
+            margin: 2rem;
+        }
+    
+    }

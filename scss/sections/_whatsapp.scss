@@ -1,0 +1,13 @@
+/* WHATSAPP */
+.image-wpp {    
+    img{
+      width: 3rem;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      &:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+      }
+    }
+  }

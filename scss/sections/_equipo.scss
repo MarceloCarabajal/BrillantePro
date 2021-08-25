@@ -1,0 +1,59 @@
+// -----------------Equipo---------------
+
+#equipo {
+    h2 {
+        color: #81439a;
+        line-height: 2rem;
+        overflow: visible;
+        font-family: nexa1;
+
+    }
+
+    @media (min-width: 768px) {
+        padding-top: -2rem;
+        padding-bottom: 5rem;
+    }
+
+    @media (max-width: 768px) {
+        padding-top: -2rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.imagen-team {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.myFlexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.subtittle {
+    padding: 0 !important;
+    color:black;
+    font-family: roboto1;
+    
+           &:hover{
+               text-decoration: none;
+               color:#81439a;
+               font-weight: bold;
+            //    background-color: black;
+           }
+      
+    }
+
+    .teamBri{
+        margin: 2rem ;
+        text-align: center;
+        font-family: roboto1;
+    }
+
+    .team2 {
+        font-family: roboto1;
+    }
